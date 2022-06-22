@@ -26,6 +26,8 @@ call minpac#add('ctrlpvim/ctrlp.vim')
 
 call minpac#add('sheerun/vim-polyglot', {'type': 'opt'})
 
+call minpac#add('tpope/vim-commentary')
+
 " denops plugins
 if executable('deno')
   call minpac#add('vim-denops/denops.vim')
