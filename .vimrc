@@ -43,3 +43,6 @@ set nobackup
 augroup save
   autocmd BufWritePre * :%s/\s\+$//ge
 augroup END
+
+inoremap jj <Esc>
+set number
